@@ -1,35 +1,92 @@
 [
   {
-    "id": "test",
-    "title": "Bitcoin wastes energy and test",
-    "myth": "Bitcoin mining consumes as much energy as a medium‑sized country.",
-    "rebuttalPro": "Bitcoin’s annual draw is ~0.18 % of global electricity and over 59 % already comes from renewables…",
-    "rebuttalELI5": "Big computers need power, but they secure digital gold. It’s like using some fuel to guard all the world’s treasure.",
-    "tags": ["Energy test"],
-    "sources": [
-      {
-        "title": "Cambridge Bitcoin Electricity Consumption Index, 2024",
-        "url": "https://ccaf.io/cbeci"
-      },
-      {
-        "title": "Bitcoin Mining Council Q4‑2024 report",
-        "url": "https://bitcoinminingcouncil.com"
-      }
-    ]
+    "id": "energy-waste",
+    "title": "Bitcoin wastes energy",
+    "myth": "Bitcoin mining consumes as much electricity as a medium‑sized country, so it is an environmental disaster.",
+    "rebuttalPro": "Bitcoin uses about 0.18 % of global electricity—comparable to tumble‑dryers—and more than half comes from otherwise‑stranded or renewable sources. That energy secures a censorship‑resistant monetary network that can replace far less efficient legacy banking and gold‑mining systems, so the net environmental trade‑off is positive."
   },
   {
-    "id": "criminals",
+    "id": "criminal-usage",
     "title": "Only criminals use Bitcoin",
-    "myth": "Most BTC transactions finance crime.",
-    "rebuttalPro": "Chainalysis shows illicit flow was just 0.14 % of volume in 2024 — far below cash’s 2‑5 %…",
-    "rebuttalELI5": "Bad guys do use BTC, but they mostly stick to cash because it’s easier to hide.",
-    "tags": ["Illicit‑Use"],
-    "sources": [
-      {
-        "title": "Chainalysis Crypto Crime Report 2025",
-        "url": "https://go.chainalysis.com/2025-crypto-crime-report.html"
-      }
-    ]
+    "myth": "Most Bitcoin transactions finance drug deals, ransomware and money‑laundering.",
+    "rebuttalPro": "Blockchain forensics show illicit activity fell to roughly 0.14 % of on‑chain volume in 2024—orders of magnitude lower than the share of global cash used for crime. Every BTC payment is traceable forever, making it a poor tool for professional criminals."
+  },
+  {
+    "id": "volatility",
+    "title": "Bitcoin is too volatile to be a store of value",
+    "myth": "The price swings wildly, so you can’t rely on it to preserve purchasing power.",
+    "rebuttalPro": "Short‑term volatility is real, but it has declined steadily and is now similar to a basket of tech stocks. Over any four‑year window since launch, Bitcoin has preserved or increased real purchasing power, and hedging tools like ETFs and options keep tightening price swings."
+  },
+  {
+    "id": "no-intrinsic-value",
+    "title": "Bitcoin has no intrinsic value",
+    "myth": "Unlike stocks or real estate, Bitcoin produces no cash flow or dividends.",
+    "rebuttalPro": "Bitcoin’s value lies in delivering the first globally accessible, absolutely scarce digital asset. That scarcity—enforced by thermodynamically costly proof‑of‑work—lets anyone store wealth without counter‑party risk, a utility tens of millions already pay for."
+  },
+  {
+    "id": "scalability",
+    "title": "Bitcoin can’t scale for daily payments",
+    "myth": "Seven transactions per second is nowhere near Visa’s throughput.",
+    "rebuttalPro": "Base‑layer throughput is intentionally limited to maximize decentralization. Layer‑2 protocols like the Lightning Network batch and net payments off‑chain, already processing millions of instant, sub‑cent transfers daily while settling the final state back to Bitcoin for security."
+  },
+  {
+    "id": "mining-centralization",
+    "title": "Mining is centralized in a few big pools",
+    "myth": "A handful of companies can collude to control the network.",
+    "rebuttalPro": "Pools merely coordinate payouts; the underlying hash power is owned by thousands of independent miners across dozens of jurisdictions. Switching pools takes minutes, so any pool that misbehaves would instantly lose hash rate and block rewards."
+  },
+  {
+    "id": "government-ban",
+    "title": "Governments will ban Bitcoin",
+    "myth": "States can outlaw it and make holding or transacting impossible.",
+    "rebuttalPro": "Some countries have tried, but outright bans are hard to enforce: the protocol runs on the public internet, satellite relays and even radio. Meanwhile the US, EU and major exchanges have integrated Bitcoin into regulated finance with ETFs and tax guidance, signalling long‑term acceptance."
+  },
+  {
+    "id": "lost-keys",
+    "title": "If you lose your keys you lose everything",
+    "myth": "Ordinary users can’t manage private keys safely, so it’s unusable.",
+    "rebuttalPro": "Key‑loss risk is mitigated by hardware wallets with passphrase recovery, multi‑signature vaults, and professional custody services. These tools replicate the redundancy consumers expect from online banking while preserving self‑custody as an option."
+  },
+  {
+    "id": "speculation-only",
+    "title": "Bitcoin is used only for speculation, not as money",
+    "myth": "Nobody actually buys goods and services with Bitcoin.",
+    "rebuttalPro": "Hundreds of thousands of merchants accept Bitcoin directly or via Lightning, and in inflation‑struck regions it functions as day‑to‑day money. Store‑of‑value adoption naturally precedes medium‑of‑exchange use, just as gold served as savings before coinage."
+  },
+  {
+    "id": "hardware-e-waste",
+    "title": "Mining creates mountains of e‑waste",
+    "myth": "Short ASIC life cycles dump toxic electronics into landfills.",
+    "rebuttalPro": "Modern ASICs run profitably for 5–7 years and can be refurbished, resold or repurposed for lower‑cost energy sites. Their e‑waste footprint is a fraction of that from the constant turnover of consumer electronics like smartphones."
+  },
+  {
+    "id": "proof-of-stake-better",
+    "title": "Proof‑of‑stake does the same job with less energy",
+    "myth": "Bitcoin should switch like Ethereum did to save power.",
+    "rebuttalPro": "Proof‑of‑stake saves energy by replacing external cost with internal politics—those with the most coins decide the rules. Bitcoin’s proof‑of‑work ties consensus to an external scarce resource, keeping governance neutral and censorship‑resistant."
+  },
+  {
+    "id": "early-adopter-unfair",
+    "title": "Early adopters got unfairly rich",
+    "myth": "Bitcoin is a pyramid where only first movers profit.",
+    "rebuttalPro": "Early miners took extreme technical and regulatory risk when coins were near worthless. Bitcoin’s fixed issuance schedule was public from day one; anyone could mine or buy. Even now, new entrants who save patiently in BTC outpace fiat inflation."
+  },
+  {
+    "id": "fees-too-high",
+    "title": "Transaction fees are unpredictable and too high",
+    "myth": "Users sometimes pay tens of dollars just to send Bitcoin.",
+    "rebuttalPro": "Base‑layer fees fluctuate with demand, similar to gas prices in Ethereum or surge pricing in ride‑shares. Everyday transactions are already shifting to Lightning where fees are fractions of a cent, while high fees on‑chain fund long‑term security."
+  },
+  {
+    "id": "bubble",
+    "title": "Bitcoin is just a speculative bubble",
+    "myth": "Price rises are driven by greater‑fool theory and will crash to zero.",
+    "rebuttalPro": "Multiple 80 % drawdowns have been followed by higher all‑time highs as adoption, hash rate and real‑world utility grow. Bubbles don’t keep rebuilding fundamental infrastructure, attracting institutional investors and processing trillions in settlement value."
+  },
+  {
+    "id": "quantum-threat",
+    "title": "Quantum computers will break Bitcoin",
+    "myth": "Shor’s algorithm can crack ECDSA and steal everyone’s coins.",
+    "rebuttalPro": "No quantum machine close to the required scale exists, and Bitcoin transactions already use one‑time public key exposure. If quantum risk ever becomes real, the network can soft‑fork to a post‑quantum signature scheme long before an attack is practical."
   }
 ]
-
