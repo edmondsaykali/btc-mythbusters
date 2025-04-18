@@ -1,0 +1,36 @@
+[
+  {
+    "id": "energy-waste",
+    "title": "Bitcoin wastes energy",
+    "myth": "Bitcoin mining consumes as much energy as a medium‑sized country.",
+    "rebuttalPro": "Bitcoin’s annual draw is ~0.18 % of global electricity and over 59 % already comes from renewables…",
+    "rebuttalELI5": "Big computers need power, but they secure digital gold. It’s like using some fuel to guard all the world’s treasure.",
+    "tags": ["Energy"],
+    "sources": [
+      {
+        "title": "Cambridge Bitcoin Electricity Consumption Index, 2024",
+        "url": "https://ccaf.io/cbeci"
+      },
+      {
+        "title": "Bitcoin Mining Council Q4‑2024 report",
+        "url": "https://bitcoinminingcouncil.com"
+      }
+    ]
+  },
+  {
+    "id": "criminals",
+    "title": "Only criminals use Bitcoin",
+    "myth": "Most BTC transactions finance crime.",
+    "rebuttalPro": "Chainalysis shows illicit flow was just 0.14 % of volume in 2024 — far below cash’s 2‑5 %…",
+    "rebuttalELI5": "Bad guys do use BTC, but they mostly stick to cash because it’s easier to hide.",
+    "tags": ["Illicit‑Use"],
+    "sources": [
+      {
+        "title": "Chainalysis Crypto Crime Report 2025",
+        "url": "https://go.chainalysis.com/2025-crypto-crime-report.html"
+      }
+    ]
+  }
+  // …more myths here
+]
+
