@@ -5,7 +5,7 @@
     "myth": "Bitcoin mining consumes as much energy as a medium‑sized country.",
     "rebuttalPro": "Bitcoin’s annual draw is ~0.18 % of global electricity and over 59 % already comes from renewables…",
     "rebuttalELI5": "Big computers need power, but they secure digital gold. It’s like using some fuel to guard all the world’s treasure.",
-    "tags": ["Energy"],
+    "tags": ["Energy test"],
     "sources": [
       {
         "title": "Cambridge Bitcoin Electricity Consumption Index, 2024",
